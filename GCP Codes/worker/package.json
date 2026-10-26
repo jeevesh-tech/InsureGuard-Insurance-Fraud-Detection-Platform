@@ -1,0 +1,19 @@
+{
+  "name": "insureguard-claim-worker",
+  "version": "1.0.0",
+  "private": true,
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google-cloud/documentai": "^10.1.1",
+    "@google-cloud/storage": "^8.2.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "redis": "^6.3.0"
+  }
+}

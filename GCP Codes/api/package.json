@@ -1,0 +1,23 @@
+{
+  "name": "insureguard-api",
+  "version": "1.0.0",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@google-cloud/bigquery": "^9.3.0",
+    "@google-cloud/pubsub": "^6.1.0",
+    "@google-cloud/storage": "^7.16.0",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "pg": "^8.16.3",
+    "redis": "^6.3.0",
+    "uuid": "^11.1.0"
+  }
+}
